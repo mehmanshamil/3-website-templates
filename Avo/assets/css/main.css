@@ -1,0 +1,314 @@
+#formSec {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+#formSec .container {
+  justify-content: center;
+}
+#formSec .container .title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+#formSec .formHead {
+  position: relative;
+}
+#formSec .formHead #display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+#formSec .formHead #display .formBox {
+  width: 250px;
+  padding: 15px;
+  box-shadow: 0px 2px 10px 0.2px gray;
+}
+#formSec .formHead #display .formBox input {
+  border: none;
+}
+#formSec .formHead #display .formBox .chng {
+  color: #fff;
+  background-color: green;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid green;
+}
+#formSec .formHead #display .formBox .chng:hover {
+  background-color: #fff;
+  color: green;
+}
+#formSec .formHead #display .formBox .rmv {
+  color: #fff;
+  background-color: red;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid red;
+}
+#formSec .formHead #display .formBox .rmv:hover {
+  background-color: #fff;
+  color: red;
+}
+#formSec .formHead #formDetail {
+  display: none;
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  top: 0;
+  left: 30%;
+  background-color: gray;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#formSec .formHead #formDetail i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+#formSec .formHead #formDetail i:hover {
+  color: red;
+}
+#formSec .formHead #formDetail #save {
+  color: #fff;
+  margin-top: 1rem;
+  background-color: green;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid green;
+}
+#formSec .formHead #formDetail #save:hover {
+  background-color: #fff;
+  color: green;
+}
+
+#sent {
+  margin-top: 5rem;
+}
+#sent input {
+  cursor: pointer;
+}
+#sent .container {
+  text-align: center;
+}
+#sent .container .books {
+  color: red;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+#sent .container .news {
+  font-size: 2.5rem;
+}
+#sent .container #product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#sent .container #product .box {
+  width: 250px;
+}
+#sent .container #product .box img {
+  width: 100%;
+}
+#sent .container #product .box button {
+  color: #fff;
+  background-color: red;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid red;
+}
+#sent .container #product .box button:hover {
+  background-color: #fff;
+  color: red;
+}
+#sent .container #load {
+  color: #fff;
+  background-color: #000000;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  transition: 1s;
+  margin: 1rem;
+}
+#sent .container #load:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+header .container .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+}
+header .container .navbar-brand .v {
+  color: rgb(209, 0, 44);
+}
+header .container .collapse ul li a {
+  color: #fff;
+  opacity: 0.7;
+  transition: 1s;
+}
+header .container .collapse ul li a:hover {
+  color: rgb(209, 0, 44);
+}
+
+#create {
+  background-image: url("../../../assets/Image/bg_1.jpg");
+  width: 100%;
+  height: 50rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+#create .container {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+#create .container .text h1 {
+  width: 21rem;
+}
+#create .container .text p {
+  width: 60%;
+}
+#create .container .text button {
+  color: #fff;
+  background-color: rgb(209, 0, 44);
+  padding: 15px;
+  border-radius: 10px;
+  transition: 1s;
+  border: 1px solid rgb(209, 0, 44);
+}
+#create .container .text button:hover {
+  background-color: #fff;
+  color: rgb(209, 0, 44);
+}
+#create .container .addtxt {
+  text-align: center;
+  width: 4rem;
+}
+#create .container .addtxt .num {
+  font-size: 2.4rem;
+}
+
+#about .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#about .container .us {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+#about .container .head-about {
+  gap: 25px;
+}
+#about .container .head-about i {
+  font-size: 3rem;
+}
+#about .container .welcome {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+#about .container .welcome .left {
+  width: 303px;
+}
+#about .container .welcome .left .txtPortfolio {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+#about .container .welcome .center {
+  width: 303px;
+}
+#about .container .welcome .center img {
+  width: 100%;
+  overflow: hidden;
+  height: 300.6px;
+}
+#about .container .welcome .right {
+  width: 303px;
+}
+#about .container .welcome .right button {
+  color: #fff;
+  background-color: rgb(209, 0, 44);
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s;
+  border: 1px solid rgb(209, 0, 44);
+}
+#about .container .welcome .right button:hover {
+  background-color: #fff;
+  color: rgb(209, 0, 44);
+}
+#about .container .numeric {
+  width: 70%;
+}
+#about .container .numeric .num {
+  color: rgb(209, 0, 44);
+  font-size: 2rem;
+}
+
+#recent .container {
+  text-align: center;
+}
+#recent .container .recentBlog {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+#recent .container #product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#recent .container #product .box {
+  width: 250px;
+}
+#recent .container #product .box img {
+  width: 100%;
+}
+#recent .container #product .box button {
+  color: #fff;
+  background-color: green;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid green;
+}
+#recent .container #product .box button:hover {
+  background-color: #fff;
+  color: green;
+}
+#recent .container #load {
+  color: #fff;
+  background-color: #000000;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  transition: 1s;
+  margin: 1rem;
+}
+#recent .container #load:hover {
+  background-color: #fff;
+  color: #000000;
+}

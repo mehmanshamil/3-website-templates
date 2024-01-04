@@ -1,0 +1,188 @@
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    .container{
+        .navbar-brand{
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #fff;
+            .v{
+                color: rgb(209, 0, 44);
+            }
+        }
+        .collapse{
+            ul{
+                li{
+                    a{
+                        color: #fff; 
+                        opacity: 0.7;
+                        transition: 1s;
+                        &:hover{
+                            color: rgb(209, 0, 44);
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+#create{
+    background-image: url("../../../assets/Image/bg_1.jpg");
+    width: 100%;
+    height: 50rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    .container{
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        .text{
+            h1{
+                width: 21rem;
+            }
+            p{
+                width: 60%;
+            }
+            button{
+                color: #fff;
+                background-color: rgb(209, 0, 44);
+                padding: 15px;
+                border-radius: 10px;
+                transition: 1s;
+                border: 1px solid rgb(209, 0, 44);
+                &:hover{
+                    background-color: #fff;
+                    color: rgb(209, 0, 44);
+                }
+            }
+        }
+        .addtxt{
+            .num{
+                font-size: 2.4rem;
+            }
+            text-align: center;
+            width: 4rem;
+        }
+    }
+}
+#about{
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        .us{
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+        .head-about{
+            gap: 25px;
+            i{
+                font-size: 3rem;
+            }
+        }
+        .welcome{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            .left{
+                width: 303px;
+                .txtPortfolio{
+                    font-size: 1.5rem;
+                    font-weight: 500;
+
+                }
+            }
+            .center{
+                width: 303px;
+
+                img{
+                    width: 100%;
+                    overflow: hidden;
+                    height: 300.6px;
+                }
+            }
+            .right{
+                width: 303px;
+
+                button{
+                    color: #fff;
+                    background-color: rgb(209, 0, 44);
+                    padding: 10px;
+                    border-radius: 10px;
+                    transition: 1s;
+                    border: 1px solid rgb(209, 0, 44);
+                    &:hover{
+                        background-color: #fff;
+                        color: rgb(209, 0, 44);
+                    }
+                }
+            }
+        }
+        .numeric{
+            width: 70%;
+            .num{
+                color: rgb(209, 0, 44);
+                font-size: 2rem;
+            }
+        }
+    }
+}
+#recent{
+    .container{
+        text-align: center;
+        .recentBlog{
+            font-size: 2.5rem;
+            font-weight: 500;
+        }
+        #product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+
+            .box {
+                width: 250px;
+
+                img {
+                    width: 100%;
+                }
+
+                button {
+                    color: #fff;
+                    background-color: green;
+                    transition: 1s;
+                    padding: 10px;
+                    border-radius: 15px;
+                    border: 1px solid green;
+
+                    &:hover {
+                        background-color: #fff;
+                        color: green;
+                    }
+                }
+
+            }
+        }
+        #load {
+            color: #fff;
+            background-color: #000000;
+            border-radius: 20px;
+            padding: 10px;
+            border: 1px solid black;
+            transition: 1s;
+            margin: 1rem;
+            &:hover {
+                background-color: #fff;
+                color: #000000;
+            }
+        }
+    }
+}

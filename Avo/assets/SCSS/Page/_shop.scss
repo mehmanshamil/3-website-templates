@@ -1,0 +1,63 @@
+#sent {
+    margin-top: 5rem;
+    input{
+        cursor: pointer;
+    }
+    .container {
+        text-align: center;
+
+        .books {
+            color: red;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+        }
+
+        .news {
+            font-size: 2.5rem;
+        }
+
+        #product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+
+            .box {
+                width: 250px;
+
+                img {
+                    width: 100%;
+                }
+
+                button {
+                    color: #fff;
+                    background-color: red;
+                    transition: 1s;
+                    padding: 10px;
+                    border-radius: 15px;
+                    border: 1px solid red;
+
+                    &:hover {
+                        background-color: #fff;
+                        color: red;
+                    }
+                }
+
+            }
+        }
+
+        #load {
+            color: #fff;
+            background-color: #000000;
+            border-radius: 20px;
+            padding: 10px;
+            border: 1px solid black;
+            transition: 1s;
+            margin: 1rem;
+            &:hover {
+                background-color: #fff;
+                color: #000000;
+            }
+        }
+    }
+}

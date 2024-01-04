@@ -1,0 +1,488 @@
+#formSec .books {
+  color: red;
+  font-size: 1.5rem;
+}
+#formSec .container {
+  display: flex;
+  justify-content: center;
+}
+#formSec .container #form {
+  width: 30%;
+}
+#formSec .container {
+  position: relative;
+}
+#formSec .container #display {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+#formSec .container #display .formBox {
+  width: 250px;
+  padding: 15px;
+  box-shadow: 0 2px 20px 0.2px gray;
+}
+#formSec .container #display .formBox input {
+  border: none;
+}
+#formSec .container #display .formBox .chng {
+  color: #fff;
+  background-color: green;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid green;
+}
+#formSec .container #display .formBox .chng:hover {
+  background-color: #fff;
+  color: green;
+}
+#formSec .container #display .formBox .delet {
+  color: #fff;
+  background-color: red;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid red;
+}
+#formSec .container #display .formBox .delet:hover {
+  background-color: #fff;
+  color: red;
+}
+#formSec .container #detail {
+  display: none;
+  position: absolute;
+  top: -20rem;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, hsl(240, 100%, 20%) 0%, hsl(289, 100%, 21%) 11%, hsl(315, 100%, 27%) 22%, hsl(329, 100%, 36%) 33%, hsl(337, 100%, 43%) 44%, hsl(357, 91%, 59%) 56%, hsl(17, 100%, 59%) 67%, hsl(34, 100%, 53%) 78%, hsl(45, 100%, 50%) 89%, hsl(55, 100%, 50%) 100%);
+}
+#formSec .container #detail h6 {
+  color: #fff;
+}
+#formSec .container #detail #close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  transition: 0.5s;
+  border-radius: 50%;
+}
+#formSec .container #detail #close:hover {
+  background-color: #fff;
+  color: red;
+  cursor: pointer;
+}
+#formSec .container #detail button {
+  margin-top: 2rem;
+  width: 50%;
+  align-self: center;
+  color: #fff;
+  background-color: green;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid green;
+}
+#formSec .container #detail button:hover {
+  background-color: #fff;
+  color: green;
+}
+
+#rel input {
+  cursor: pointer;
+}
+#rel .container {
+  text-align: center;
+}
+#rel .container .books {
+  color: red;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+#rel .container .news {
+  font-size: 2.5rem;
+}
+#rel .container #product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#rel .container #product .box {
+  width: 250px;
+}
+#rel .container #product .box img {
+  width: 100%;
+}
+#rel .container #product .box button {
+  color: #fff;
+  background-color: red;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid red;
+}
+#rel .container #product .box button:hover {
+  background-color: #fff;
+  color: red;
+}
+#rel .container #load {
+  color: #fff;
+  background-color: #000000;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  transition: 1s;
+  margin: 1rem;
+}
+#rel .container #load:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+header .container .head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
+}
+header .container .head .contentHead {
+  text-align: center;
+}
+header .container .head .contentHead #publish {
+  color: #000000;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  font-family: "Lora", serif;
+}
+header .container .head .contentHead #comp {
+  color: #ff7a5c;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.2;
+}
+header .container .head .contentHead #book {
+  opacity: 0.5;
+}
+header .container .head .logo {
+  gap: 15px;
+  display: flex;
+}
+header .container .head .logo i {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(149, 173, 190);
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 1s;
+}
+header .container .head .logo i:hover {
+  color: #fff;
+  background-color: rgb(149, 173, 190);
+}
+header .container .head form {
+  width: 300px;
+  position: relative;
+}
+header .container .head form input {
+  width: 300px;
+  padding: 15px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.03) !important;
+  border: none;
+}
+header .container .head form button {
+  position: absolute;
+  padding: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  right: 0;
+  background-color: rgb(149, 173, 190);
+  color: #fff;
+  border: none;
+}
+header .container .navbar ul li #actives {
+  color: rgb(149, 173, 190) !important;
+}
+header .container .navbar ul li a {
+  transition: 0.5s;
+  position: relative;
+}
+header .container .navbar ul li a::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: rgb(149, 173, 190);
+  display: flex;
+  justify-content: center;
+  bottom: -2px;
+  left: -2px;
+}
+header .container .navbar ul li a:hover {
+  color: rgb(149, 173, 190);
+}
+header .container .navbar ul li a:hover::after {
+  width: 100%;
+  transition: 1s;
+}
+
+#books {
+  width: 100%;
+  background-image: url("../../../assets/Image/bg_1.jpg");
+  height: 40rem;
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+#books .container {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+}
+#books .container .content {
+  width: 45%;
+}
+#books .container .content .good {
+  color: #000000;
+  font-size: 3rem;
+  font-weight: 600;
+}
+#books .container .content button {
+  padding: 15px;
+  margin-top: 1rem;
+  border: none;
+  transition: 1s;
+}
+#books .container .content .view {
+  background-color: rgb(149, 173, 190);
+  color: #fff;
+  border: 1px solid rgb(149, 173, 190);
+}
+#books .container .content .view:hover {
+  background-color: #fff;
+  color: rgb(149, 173, 190);
+}
+#books .container .content .explore {
+  color: rgb(149, 173, 190);
+  background-color: #fff;
+}
+#books .container .content .explore:hover {
+  color: #fff;
+  background-color: rgb(149, 173, 190);
+}
+
+#art {
+  position: relative;
+  height: 17rem;
+}
+#art .container .row {
+  position: absolute;
+  top: -100px;
+}
+#art .container .row .col-xl-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 260px;
+}
+#art .container .row .col-xl-3 i {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background: #f5f4f0;
+  font-size: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#art .container .row .col-xl-3 i:hover {
+  background-color: rgb(149, 173, 190);
+  color: #fff;
+}
+
+#release .container {
+  text-align: center;
+}
+#release .container .books {
+  color: red;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+#release .container .news {
+  font-size: 2.5rem;
+}
+#release .container #product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#release .container #product .box {
+  width: 250px;
+}
+#release .container #product .box img {
+  width: 100%;
+}
+#release .container #product .box button {
+  color: #fff;
+  background-color: green;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid green;
+}
+#release .container #product .box button:hover {
+  background-color: #fff;
+  color: green;
+}
+#release .container #load {
+  color: #fff;
+  background-color: #000000;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  transition: 1s;
+  margin: 1rem;
+}
+#release .container #load:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+#kinds {
+  width: 100%;
+  background-image: url("../../../assets/Image/bg_4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  color: #fff;
+  position: relative;
+}
+#kinds .kindsWord {
+  font-size: 2.5rem;
+  z-index: 9999 !important;
+  width: 100%;
+  text-align: center;
+}
+#kinds .txtKinds {
+  position: absolute;
+  top: 0;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+#kinds .bg-kinds {
+  background: #95adbe;
+  opacity: 0.8;
+  top: 0;
+  z-index: 3;
+  height: 400px;
+}
+#kinds .persons {
+  justify-content: center;
+  margin: 0 auto !important;
+  gap: 25px;
+  width: 100%;
+  position: absolute;
+  bottom: -60px;
+}
+#kinds .persons .col-xl-4 {
+  background-color: #fff;
+  width: 350px;
+  color: #000000;
+  padding: 20px;
+}
+#kinds .persons .col-xl-4 img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+#recent {
+  margin-top: 100px;
+  text-align: center;
+}
+#recent .container .books {
+  color: red;
+}
+#recent .container .news {
+  font-size: 2.5rem;
+}
+#recent .container .row .col-xl-4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#recent .container .row .col-xl-4 img {
+  width: 100%;
+}
+#recent .container .row .col-xl-4 .date {
+  position: absolute;
+  top: 14rem;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 15px;
+  transition: 1s;
+}
+#recent .container .row .col-xl-4 .date:hover {
+  background-color: rgb(149, 173, 190);
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 570px) {
+  header .container .head {
+    display: none;
+  }
+  #books .container .content {
+    width: 100%;
+  }
+  #art {
+    margin-top: 3rem;
+  }
+  #art .container .row .col-xl-3 i {
+    width: 100px;
+    height: 100px;
+  }
+  #art .container .row .col-xl-3 {
+    width: 100%;
+  }
+  #release {
+    margin-top: 50rem;
+  }
+  #kinds .persons {
+    display: none;
+  }
+  #rel .container #form {
+    width: 20rem !important;
+  }
+}
